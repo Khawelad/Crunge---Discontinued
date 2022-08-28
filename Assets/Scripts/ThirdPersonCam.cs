@@ -25,14 +25,17 @@ public class ThirdPersonCam : MonoBehaviour
     }
 
     void Start() {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) SwitchCameraStyle(CameraStyle.Basic);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) SwitchCameraStyle(CameraStyle.Combat);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) SwitchCameraStyle(CameraStyle.TopDown);
+        if (Input.GetKeyDown(KeyCode.Alpha1)) 
+            SwitchCameraStyle(CameraStyle.Basic);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) 
+            SwitchCameraStyle(CameraStyle.Combat);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) 
+            SwitchCameraStyle(CameraStyle.TopDown);
 
         Vector3 ViewDirection = Player.position - new Vector3(transform.position.x, Player.position.y, transform.position.z);
         Orientation.forward = ViewDirection;
@@ -59,9 +62,12 @@ public class ThirdPersonCam : MonoBehaviour
         FreeLookCamera.SetActive(false);
         TopDownCamera.SetActive(false);
 
-        if (NewStyle == CameraStyle.Basic) FreeLookCamera.SetActive(true);
-        if (NewStyle == CameraStyle.Combat) CombatCamera.SetActive(true);
-        if (NewStyle == CameraStyle.TopDown) TopDownCamera.SetActive(true);
+        if (NewStyle == CameraStyle.Basic) 
+            FreeLookCamera.SetActive(true);
+        if (NewStyle == CameraStyle.Combat) 
+            CombatCamera.SetActive(true);
+        if (NewStyle == CameraStyle.TopDown)
+            TopDownCamera.SetActive(true);
 
         CurrentStyle = NewStyle;
     }

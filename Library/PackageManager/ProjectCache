@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637963650692249725
-    m_Hash: 3444624777
+      ticks: 637972069558892479
+    m_Hash: 79860099
   m_LockFileStatus:
     m_FilePath: C:/Users/Khawelad/Crunge3d/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637963650692349695
-    m_Hash: 2443346956
+      ticks: 637972069558992449
+    m_Hash: 26221422
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,57 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Khawelad/Crunge3d/Packages
 m_EditorVersion: 2022.1.11f1 (09bebd6e9324)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\Khawelad\Crunge3d\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
 - packageId: com.unity.cinemachine@2.8.6
   testable: 0
   isDirectDependency: 1
@@ -3216,6 +3267,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
+    - 1.2.0
     compatible:
     - 1.1.1
     - 1.2.0-exp.1
@@ -3225,6 +3277,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
+    - 1.2.0
     verified: 1.1.1
   dependencies:
   - name: com.unity.test-framework
